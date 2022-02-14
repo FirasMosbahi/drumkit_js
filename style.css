@@ -1,0 +1,150 @@
+body {
+  background-color: #093341ec;
+  width: 100%;
+}
+.header {
+  color: aliceblue;
+  text-shadow: palevioletred;
+  text-align: center;
+  font-weight: bold;
+  font-size: 600%;
+  margin-top: -0.5%;
+  margin-bottom: -5%;
+}
+.drums {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  margin-left: 5%;
+  margin-top: 7%;
+  margin-bottom: 13%;
+}
+.tom1 {
+  background-image: url(images/tom1.png);
+  font-size: 600%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(236, 14, 88);
+  text-shadow: white 3px 3px;
+  border-radius: 10%;
+  border: 10px solid rgb(111, 120, 128);
+}
+.tom2 {
+  background-image: url(images/tom2.png);
+  font-size: 600%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(236, 14, 88);
+  text-shadow: white 3px 3px;
+  border-radius: 10%;
+  border: 10px solid rgb(111, 120, 128);
+}
+.tom3 {
+  background-image: url(images/tom3.png);
+  font-size: 600%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(236, 14, 88);
+  text-shadow: white 3px 3px;
+  border-radius: 10%;
+  border: 10px solid rgb(111, 120, 128);
+}
+.tom4 {
+  background-image: url(images/tom4.png);
+  font-size: 600%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(236, 14, 88);
+  text-shadow: white 3px 3px;
+  border-radius: 10%;
+  border: 10px solid rgb(111, 120, 128);
+}
+.crash {
+  background-image: url(images/crash.png);
+  font-size: 600%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(236, 14, 88);
+  text-shadow: white 3px 3px;
+  border-radius: 10%;
+  border: 10px solid rgb(111, 120, 128);
+}
+.kick {
+  background-image: url(images/kick.png);
+  font-size: 600%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(236, 14, 88);
+  text-shadow: white 3px 3px;
+  border-radius: 10%;
+  border: 10px solid rgb(111, 120, 128);
+}
+.snare {
+  background-image: url(images/snare.png);
+  font-size: 600%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 3.5%;
+  padding-right: 3.5%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(236, 14, 88);
+  text-shadow: white 3px 3px;
+  border-radius: 10%;
+  border: 10px solid rgb(111, 120, 128);
+}
+.footer {
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+  font-style: italic;
+}
+.clickedbutton{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.options{
+  display: flex;
+  margin-bottom: 5%;
+  margin-top: -5%;
+  margin-left: 10%;
+  gap: 5%;
+}
+.save,.play,.clear, .stop {
+  font-size: 250%;
+  background-color: darkslateblue;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 10%;
+}
+.clearLast{
+  font-size: 250%;
+  background-color: darkslateblue;
+  border-radius: 10%;
+}
+
+.reco {
+  font-size: 190%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  margin-top: -10%;
+  max-width: 65%;
+  color: cyan;
+}
